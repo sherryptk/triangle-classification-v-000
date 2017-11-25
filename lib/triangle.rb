@@ -12,6 +12,7 @@ class Triangle
   def kind
     if @a == @b && @b == @c
       return "equilateral"
+      binding.pry
     elsif @a != @b && @b != @c
       return "scalene"
     else
