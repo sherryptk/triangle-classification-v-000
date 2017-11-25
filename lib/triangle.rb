@@ -12,8 +12,8 @@ class Triangle
   def kind
     if @a <= 0 || @b <= 0 || @c <= 0
       begin
-       raise PartnerError
-     rescue PartnerError => error
+       raise TriangleError
+     rescue TriangleError => error
          puts error.message
      end
 
@@ -25,6 +25,10 @@ class Triangle
     else
       :isosceles
     end
+  end
+
+  class TriangleError < StandardError
+    
   end
 
 end
