@@ -10,9 +10,9 @@ class Triangle
   end
 
   def kind
-    if a == b && b == c
+    if @a == @b && @b == @c
       "equilateral"
-    elsif a != b && b != c
+    elsif @a != @b && @b != @c
       "scalene"
     else
       "isosceles"
