@@ -17,7 +17,6 @@ class Triangle
     else
       "isosceles"
     end
-    binding.pry
   end
 
 end
