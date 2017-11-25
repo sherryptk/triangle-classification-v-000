@@ -1,10 +1,14 @@
 class Triangle
   # write code here
-  attr_accessor :first, :second, :third
+  attr_accessor :a, :b, :c
 
-  def intialize(first, second, third)
-    @first = first
-    @second = second
-    @third = third
+  def intialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
+  end
+
+  def kind
+    if 
   end
 end
